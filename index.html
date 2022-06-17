@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-size: 16px;
+            font-family: Poppins;
+        }
+
+        main {
+            padding: 50px;
+            margin: 100px auto;
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            background: hsl(0, 100%, 74%);
+            background-image: url('./img/bg-intro-desktop.png') no-repeat;
+        }
+
+        botton {
+            background: hsl(154, 59%, 51%);
+        }
+
+        .form-header {
+            background: hsl(248, 32%, 49%);
+        }
+
+        .terms a {
+            color: hsl(0, 100%, 74%);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <div class="text-header">
+                <h3>
+                    Learn to code by watching others.
+                </h3>
+            </div>
+            <div class="lower-text">
+                <p>
+                    See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="background-header">
+                <b>Try it free 7 days</b> then $20/mo. thereafter.
+            </div>
+            <div>
+                <form>
+                    <input placeholder="First Name" type="text" name="first_name" id="first_name">
+                    <input placeholder="Last Name" type="text" name="last_name" id="last_name">
+                    <input type="email" name="email" id="email">
+                    <input type="password" name="password" id="password">
+                    <div>
+                        <p class="btn">
+                            <input type="button" value="CLAIM YOUR FREE TRIAL">
+                        </p>
+                        <p class="terms">
+                            By clicking the button you are agreeing to our <a href="#">Teams and Conditions.</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
